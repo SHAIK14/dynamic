@@ -1,0 +1,54 @@
+{
+  "sections": [
+    {
+      "title": "Header Form",
+      "fields": [
+        {
+          "id": "formId",
+          "name": "Form ID",
+          "type": "text",
+          "value": "HeaderForm123"
+        },
+        { "id": "name", "name": "Name", "type": "text", "value": "John Doe" },
+        {
+          "id": "type",
+          "name": "Type",
+          "type": "select",
+          "options": ["Option 1", "Option 2"],
+          "value": "Option 1"
+        }
+      ]
+    },
+    {
+      "title": "Detailed Form",
+      "fields": [
+        {
+          "id": "formId",
+          "name": "Form ID",
+          "type": "text",
+          "value": "DetailForm456"
+        },
+        {
+          "id": "employeeName",
+          "name": "Employee Name",
+          "type": "text",
+          "value": "John"
+        },
+        { "id": "dob", "name": "DOB", "type": "date", "value": "1990-01-01" },
+        {
+          "id": "gender",
+          "name": "Gender",
+          "type": "select",
+          "options": ["Male", "Female"],
+          "value": "Male"
+        },
+        {
+          "id": "dateOfJoining",
+          "name": "Date of Joining",
+          "type": "date",
+          "value": "2022-03-01"
+        }
+      ]
+    }
+  ]
+}
